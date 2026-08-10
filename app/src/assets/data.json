@@ -1,0 +1,137 @@
+[
+    {
+        "ano": "1994",
+        "titulo": "Playstation 1",
+        "descricao": "O PlayStation 1, lançado em 1994, foi o primeiro console da Sony e marcou o início de uma nova era nos videogames. Com gráficos avançados para a época e uma biblioteca de jogos diversificada, incluindo títulos icônicos como Final Fantasy VII e Metal Gear Solid, o PS1 se tornou um sucesso mundial. Ele popularizou o uso de CDs como mídia de jogos e established a Sony como uma força dominante na indústria de videogames.",
+        "descricaoCard": "O primeiro console da Sony, responsável por popularizar o uso de CDs e revolucionar o mercado com gráficos 3D.",
+        "imagem": "/imgs/ps1.jpg",
+        "controle": "DualShock",
+        "jogos": [
+            "Tekken",
+            "Tomb Raider",
+            "Final Fantasy VII",
+            "Resident Evil",
+            "Crash Bandicoot",
+            "Metal Gear Solid"
+        ]
+    },
+    {
+        "ano": "2000",
+        "titulo": "Playstation 2",
+        "descricao": "O PlayStation 2, lançado em 2000, é um dos consoles mais vendidos de todos os tempos. Com gráficos aprimorados e uma vasta biblioteca de jogos, incluindo títulos como Grand Theft Auto: San Andreas e Final Fantasy X, o PS2 se tornou um marco na história dos videogames. Ele também introduziu a capacidade de reproduzir DVDs, tornando-se um centro de entretenimento completo para os jogadores.",
+        "descricaoCard": "O console mais vendido da história, marcando época com sua biblioteca lendária e leitor de DVD integrado.",
+        "imagem": "/imgs/ps2.jpg",
+        "controle": "DualShock 2",
+        "jogos": [
+            "Grand Theft Auto: San Andreas",
+            "Final Fantasy X",
+            "Metal Gear Solid 2",
+            "God of War",
+            "Shadow of the Colossus"
+        ]
+    },
+    {
+        "ano": "2004",
+        "titulo": "PSP",
+        "descricao": "O PlayStation Portable (PSP), lançado em 2004, foi o primeiro console portátil da Sony. Com gráficos impressionantes para um dispositivo portátil e uma tela de alta qualidade, o PSP ofereceu uma experiência de jogo semelhante à dos consoles domésticos. Ele também permitiu a reprodução de filmes e música, tornando-se um dispositivo multifuncional. Jogos populares para o PSP incluíram God of War: Chains of Olympus e Grand Theft Auto: Liberty City Stories.",
+        "descricaoCard": "O primeiro portátil da Sony, que levou gráficos e jogos com qualidade de console para a palma da mão.",
+        "imagem": "/imgs/psp.jpg",
+        "controle": "Botões e D-Pad",
+        "jogos": [
+            "God of War: Chains of Olympus",
+            "Grand Theft Auto: Liberty City Stories",
+            "Monster Hunter Freedom",
+            "Final Fantasy Tactics: The War of the Lions"
+        ]
+    },
+    {
+        "ano": "2007",
+        "titulo": "Playstation 3",
+        "descricao": "O PlayStation 3, lançado em 2007, trouxe gráficos de alta definição e uma experiência de jogo online aprimorada. Com suporte a Blu-ray, o PS3 também se tornou um centro de entretenimento doméstico. Jogos notáveis para o PS3 incluíram The Last of Us, Uncharted 2: Among Thieves e Metal Gear Solid 4: Guns of the Patriots. O console também introduziu a PlayStation Network, permitindo aos jogadores se conectarem e jogarem online.",
+        "descricaoCard": "Inaugurou a era do HD e do leitor de Blu-ray, estabelecendo a rede online PlayStation Network.",
+        "imagem": "/imgs/ps3.jpg",
+        "controle": "DualShock 3",
+        "jogos": [
+            "The Last of Us",
+            "Uncharted 2: Among Thieves",
+            "Metal Gear Solid 4: Guns of the Patriots",
+            "LittleBigPlanet",
+            "God of War III",
+            "BloodBorn"
+        ]
+    },
+    {
+        "ano": "2011",
+        "titulo": "PS Vita",
+        "descricao": "O PlayStation® Vita foi outro salto evolutivo na jogabilidade portátil, com recursos revolucionários que trouxeram novos elementos para os jogos portáteis, mas mantendo-se fiel ao espírito dos consoles de mesa, com experiências fantásticas e jogos de grande sucesso.",
+        "descricaoCard": "A evolução portátil da Sony, reunindo poder visual, tela de alta qualidade e dois joysticks analógicos.",
+        "imagem": "/imgs/psvita.jpg",
+        "controle": "Botões e Joystick",
+        "jogos": [
+            "Uncharted: Golden Abyss",
+            "Gravity Rush",
+            "LittleBigPlanet PSVita",
+            "Tearaway" 
+        ]
+    },
+    {
+        "ano": "2013",
+        "titulo": "Playstation 4",
+        "descricao": "Ao desembarcar num mundo mais interconectado, o PlayStation® 4 inaugurou uma era de experiências mais coletivas e compartilháveis graças a inovações como o botão Share do controle DUALSHOCK® 4, transmissão ao vivo de jogos, Comunidades de jogadores e o Share Play.",
+        "descricaoCard": "Console focado no compartilhamento e na conectividade, definindo a geração com franquias aclamadas.",
+        "imagem": "/imgs/ps4.jpg",
+        "controle": "DualShock 4",
+        "jogos": [
+            "God of War",
+            "The Last of Us Parte 2",
+            "Uncharted 4",
+            "Death Stranding",
+            "Ghost of Tsushima",
+            "Horizon Zero Dawn"
+        ]
+    },
+    {
+        "ano": "2016",
+        "titulo": "Playstation VR",
+        "descricao": "O PlayStation® VR foi anunciado em 2014 e lançado dois anos mais tarde, prometendo aos jogadores um grau de imersão em mundos virtuais inédito até então. O PS VR proporcionou experiências novas e extraordinárias de realidade virtual a jogadores de console, transportando-os ao cume do Monte Everest e ao fundo do oceano com vividez impressionante.",
+        "descricaoCard": "Óculos de realidade virtual que trouxeram um nível de imersão inédito para os jogos de console.",
+        "imagem": "/imgs/psvr.jpg",
+        "controle": "DualShock 4 e Playstation Move",
+        "jogos": [
+            "Beat Saber",
+            "No Man's Sky",
+            "Moss",
+            "Astro Bot Rescue Mission"
+        ]
+    },
+    {
+        "ano": "2020",
+        "titulo": "Playstation 5",
+        "descricao": "Desde o formato radical revelado em junho daquele ano até a resposta tátil do controle sem fio DualSense®, que colocou novas experiências nas mãos dos jogadores, o console PS5®, com uma arquitetura de sistema capaz de sustentar tudo isso, tornou a jogabilidade mais rápida, imersiva e visualmente impressionante do que qualquer outro console PlayStation antes dele.",
+        "descricaoCard": "Alta performance com carregamento ultra-rápido por SSD e imersão tátil inovadora através do DualSense.",
+        "imagem": "/imgs/ps5.jpg",
+        "controle": "Dualsense",
+        "jogos": [
+            "God of War: Ragnarok",
+            "AstroBot",
+            "Returnal",
+            "Death Stranding 2",
+            "Horizon Forbidden West",
+            "Marvel's Spider-Man 2"
+        ]
+    },
+    {
+        "ano": "2023",
+        "titulo": "Playstation VR 2",
+        "descricao": "Seguindo a linha dos recursos táteis e imersivos do console PS5, os próximos passos do PlayStation em direção à realidade virtual vieram com um headset redesenhado, mais leve e fácil de usar — ​​graças ao seu design de cabo único — e um conjunto personalizado de controles em formato de orbe, com recursos exclusivos que deram aos jogadores uma maior sensação de imersão nos mundos dos jogos.",
+        "descricaoCard": "A nova geração da realidade virtual no PS5, com maior ergonomia, visuais impressionantes e controles VR2 Sense.",
+        "imagem": "/imgs/psvr2.jpg",
+        "controle": "Playstation VR2 Sense",
+        "jogos": [
+            "Horizon Call of the Mountain",
+            "Gran Turismo 7",
+            "Resident Evil Village: VR Mode",
+            "Resident Evil 4: VR Mode"
+        ] 
+    }
+]
