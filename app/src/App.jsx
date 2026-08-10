@@ -1,4 +1,5 @@
 import {useState, useRef, useEffect} from 'react';
+import { motion } from "motion/react";
 import Header from './components/header';
 import Console from './pages/console';
 import dados from "../src/assets/data.json";
@@ -47,8 +48,12 @@ export default function App() {
   return (
     <div className='w-full h-full flex flex-col items-center overflow-hidden'>
       <Header ano={isAno} />
-      <div className='flex flex-wrap justify-center items-center h-screen w-screen bg-black'>
-        <h1 className="w-2/3 text-white text-8xl text-center font-semibold uppercase">A Linha do Tempo da Playstation</h1>
+      <div className='flex flex-wrap justify-center items-center h-screen w-screen mt-5 bg-black'>
+        <motion.h1 
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, transition: "easeInOut" }}
+        className="w-2/3 text-white text-8xl text-center font-semibold uppercase">A Linha do Tempo da Playstation</motion.h1>
       </div>
       <div>
         {anos.map((ano, index) => (
