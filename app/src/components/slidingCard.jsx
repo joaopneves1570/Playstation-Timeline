@@ -1,6 +1,6 @@
 import { motion } from "motion/react"
 
-export default function SlidingCard({ dados, idx }) {
+export default function SlidingCard({ dados, idx, accent = "text-blue-500" }) {
 
     let xInitial = idx % 2 === 0 ? -300 : 300;
 
@@ -12,11 +12,11 @@ export default function SlidingCard({ dados, idx }) {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
         >
-            <div className="w-80 h-120 p-2 bg-blue-900 rounded-lg shadow-lg overflow-hidden">
-                <img src={dados.imagem} alt={dados.titulo} className="w-full h-64 object-cover" />
+            <div className={`w-80 h-120 p-2 bg-zinc-900/80 backdrop-blur-3xl border border-white/10 rounded-lg shadow-lg overflow-hidden`}>
+                <img src={dados.imagem} alt={dados.titulo} className="w-full h-64 object-cover rounded" />
                 <div className="p-4">
-                    <h2 className="text-xl font-semibold text-white">{dados.titulo}</h2>
-                    <p className="text-gray-200">{dados.descricaoCard}</p>
+                    <h2 className={`text-2xl font-semibold mb-4 ${accent}`}>{dados.titulo}</h2>
+                    <p className="text-gray-300">{dados.descricaoCard}</p>
                 </div>
             </div>
 

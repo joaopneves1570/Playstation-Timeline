@@ -48,12 +48,27 @@ export default function App() {
   return (
     <div className='w-full h-full flex flex-col items-center overflow-hidden'>
       <Header ano={isAno} />
-      <div className='flex flex-wrap justify-center items-center h-screen w-screen mt-5 bg-black'>
-        <motion.h1 
+      <div className='flex flex-wrap flex-col justify-center items-start pl-20 h-screen w-screen mt-20 bg-black'>
+        <div className="w-full flex flex-wrap flex-col justify-center items-start gap-4">
+          <motion.h1 
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, transition: "easeInOut" }}
+          className="w-2/3 text-white text-6xl text-start font-grotesk font-semibold uppercase">Linha do Tempo</motion.h1>
+          <motion.div
+          initial={{opacity: 0, x: -300}}
+          animate={{opacity: 1, x: 0}}
+          transition={{ duration: 1, transition: "easeInOut", delay: 1.0 }}
+          className="w-1/3 h-1 bg-blue-600 mt-4 mb-8">
+          </motion.div>
+        </div>
+        <motion.h1
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, transition: "easeInOut" }}
-        className="w-2/3 text-white text-8xl text-center font-semibold uppercase">A Linha do Tempo da Playstation</motion.h1>
+        transition={{ duration: 1, transition: "easeInOut", delay: 0.5 }}
+        className="text-white text-[350px] mt-[-100px] text-start font-zrnic font-bold">
+          Playstation
+        </motion.h1>
       </div>
       <div>
         {anos.map((ano, index) => (
